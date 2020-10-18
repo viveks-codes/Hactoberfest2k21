@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 char s[1000000]="(";
 char r_polish[1000000]="";
@@ -21,7 +19,7 @@ int f(char operation)
         return 0;
     else if((operation>=65 && operation<=91) || (operation>=97 && operation<=123))
         return 7;
-    printf("INPUT EXPRESSION IS INVALID");
+    cout << "INPUT EXPRESSION IS INVALID";
             exit(0);
 }
 
@@ -60,7 +58,7 @@ int main() {
             n--;
         if(top<0)
         {
-            printf("INPUT EXPRESSION IS INVALID");
+            cout << "INPUT EXPRESSION IS INVALID";
             exit(0);
         }
         while(f(next)<g(s[top-1]))
@@ -73,7 +71,7 @@ int main() {
             rank+=r(temp);
             if(rank<1)
             {
-                printf("INPUT EXPRESSION IS INVALID");
+                cout << "INPUT EXPRESSION IS INVALID";
                 exit(0);
             }
         }
@@ -103,7 +101,7 @@ int main() {
             rank+=r(temp);
             if(rank<1)
             {
-                printf("INPUT EXPRESSION IS INVALID");
+                cout << "INPUT EXPRESSION IS INVALID";
                 exit(0);
             }
         }
@@ -119,10 +117,10 @@ int main() {
         }
     }
     if(top<0 || rank<1 || n!=0)
-        printf("INPUT EXPRESSION IS INVALID");
+        cout << "INPUT EXPRESSION IS INVALID";
     else
     {
-        printf("%s",r_polish);
+        cout << r_polish;
     }
     return 0;
 }
