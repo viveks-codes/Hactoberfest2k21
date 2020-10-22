@@ -1,0 +1,61 @@
+#include<iostream>
+#include<string.h>
+ using namespace std;
+
+ class Employee
+ {
+     int Id, salary;
+     char *name;
+ public:
+    void input(char s[], int a, int b)
+    {
+        name = new char [sizeof(s)];
+        strcpy(name, s);
+        Id = a;
+        salary = b;
+    };
+    void output()
+    {
+        cout<<"\nName:\n"<<name<<"\nID:\n"<<Id<<"\nSalary:\n"<<salary;
+    };
+ };
+
+ class Manager:public Employee
+ {
+     int Incentive;
+ public:
+    void managerInput(char s[],int a, int b, int c)
+    {
+        Employee::input(s,a,b);
+        Incentive = c;
+    }
+    void managerOutput()
+    {
+        Employee::output();
+        cout<<"\nManager Incentive:\n"<<Incentive;
+    }
+
+ };
+
+ int main()
+ {
+     Employee es;
+     es.input("Sarthak",111,10000);
+     es.output();
+     Manager m1;
+     m1.managerInput("Mayank", 222, 50000,2000);
+     m1.managerOutput();
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
