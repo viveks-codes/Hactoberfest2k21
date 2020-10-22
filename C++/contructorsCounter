@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+class instance
+{
+    static int counter;
+public:
+    instance()
+    {
+        counter++;
+        cout<<"\nActive Objects: \n"<<counter;
+    }
+    ~instance()
+    {
+        counter--;
+        cout<<"\nActive Objects: \n"<<counter;
+    }
+};
+
+int instance :: counter = 0;
+
+int main()
+{
+    instance a,b;
+}
