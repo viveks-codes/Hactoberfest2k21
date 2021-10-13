@@ -1,5 +1,5 @@
 <p align="center">
-<img src='https://hacktoberfest.digitalocean.com/ , alt="HF2020 logo"> 
+<img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.blog%2F2021-10-07-githubs-guide-hacktoberfest-2021%2F&psig=AOvVaw2lOMTYigUUjxl8ccxMt9Y6&ust=1634189674751000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDapKvVxvMCFQAAAAAdAAAAABAO', alt="HF2020 logo"> 
 </p>
 
 <h1 align="center">
