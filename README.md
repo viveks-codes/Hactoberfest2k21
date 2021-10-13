@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="HF2020 logo" src="https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg"> 
+<img alt="HF2020 logo" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2F&psig=AOvVaw2lOMTYigUUjxl8ccxMt9Y6&ust=1634189674751000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDapKvVxvMCFQAAAAAdAAAAABAD"> 
 </p>
 
 <h1 align="center">
