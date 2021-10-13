@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="HF2020 logo" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2F&psig=AOvVaw2lOMTYigUUjxl8ccxMt9Y6&ust=1634189674751000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDapKvVxvMCFQAAAAAdAAAAABAD"> 
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2F&psig=AOvVaw2lOMTYigUUjxl8ccxMt9Y6&ust=1634189674751000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDapKvVxvMCFQAAAAAdAAAAABAD" , alt="HF2020 logo"> 
 </p>
 
 <h1 align="center">
